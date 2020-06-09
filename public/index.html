@@ -2,19 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!-- <meta name="theme-color" content="#000000" /> -->
     <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -25,9 +23,254 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <link media="all" href="css\bootstrap.min.css" rel="stylesheet" />
+    <!-- <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    /> -->
+    <script src="https://use.fontawesome.com/3eef593cbe.js"></script>
+    <link
+      media="all"
+      href="css\autoptimize_39603ae1ef846c039c8b0d2c7c15822b.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-262-css"
+      href="css\autoptimize_single_b182856c36953928358ed747e85f7382.css"
+      type="text/css"
+      media="all"
+    />
+    <style id="lawyers-style-inline-css" type="text/css">
+      body {
+        font-family: Open Sans;
+        font-size: 16px;
+        color: #707070;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      .logo,
+      blockquote,
+      .elementor-testimonial-content {
+        font-family: Crimson Text;
+      }
+      .pcolor,
+      .pcolori .elementor-icon,
+      a,
+      a:hover,
+      .intro-big-italic,
+      .section-title,
+      .single-subtitle,
+      .practice-icon,
+      .circle-icon,
+      .view-more a:hover,
+      .lawyer-social li a,
+      .faq-title a:hover,
+      .active a,
+      .blog-title a:hover,
+      .articles-title a:hover,
+      .blog-date li i,
+      .blog-date li a:hover,
+      .blog-button a,
+      .widget_categories ul li a:hover,
+      .widget_archive ul li a:hover,
+      .widget_recent_entries ul li a:hover,
+      .widget_categories ul li:before,
+      .widget_archive ul li:before,
+      .widget_recent_entries ul li:before,
+      .widget_tag_cloud a:hover,
+      .tagcloud a:hover,
+      .contact-right ul li span,
+      #submit-evaluation,
+      #submit-contact,
+      #submit,
+      .footer-social li a:hover,
+      .page-numbers,
+      .scrollup i,
+      .social-media li a:hover,
+      .meta-categ a:hover,
+      .practice-title-v2 a:hover,
+      .lawyer-position,
+      .lawyer-title a:hover,
+      .heading-subtitle,
+      .list-items li:before {
+        color: #ff6666;
+      }
+      .page-head,
+      .owl-theme .owl-dots .owl-dot span,
+      .section-title:before,
+      .practice-item:hover,
+      .circle-icon:hover,
+      .view-more a,
+      .lawyer:after,
+      .lawyer-social li a:hover,
+      .about-section:after,
+      .case:after,
+      .blog-button a:hover,
+      .widget_tag_cloud a,
+      .tagcloud a,
+      #submit-evaluation:hover,
+      #submit-contact:hover,
+      #submit:hover,
+      .page-numbers:hover,
+      .current-page,
+      .current-page:hover,
+      .info-circle,
+      .meta-categ a,
+      .tags-single-page a,
+      .practice-circle,
+      .elementor-button {
+        background-color: #ff6666;
+      }
+      .practice-item,
+      .view-more a,
+      .lawyer-social li a,
+      .circle-icon,
+      .blog-button a,
+      .widget_tag_cloud a,
+      .tagcloud a,
+      #submit-evaluation,
+      #submit-contact,
+      #submit,
+      .page-numbers,
+      .page-numbers:hover,
+      .page-numbers:hover,
+      .current-page,
+      .current-page:hover,
+      .meta-categ a,
+      .heading-subtitle,
+      .elementor-button {
+        border-color: #ff6666;
+      }
+      .heading-subtitle span,
+      .elementor-button.elementor-size-sm:hover {
+        color: #ff6666;
+        border-color: #ff6666;
+      }
+      .widget_categories ul li a,
+      .widget_archive ul li a,
+      .widget_recent_entries ul li a {
+        color: #707070;
+      }
+      #header-bar,
+      .menu-nav ul,
+      .scrollup i,
+      .mobile-menu-holder {
+        background: #212d3a;
+      }
+      .header-info .fa-phone,
+      .header-info .fa-envelope {
+        color: #212d3a;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      blockquote,
+      .intro-msg,
+      .practice-title,
+      .circle-title,
+      .small-title,
+      .lawyer-title,
+      .testimonial-client strong,
+      .lawyer-bio h3,
+      .about-title h3,
+      .faq-title a,
+      .case-2col-title,
+      .case-1col-title,
+      .blog-title,
+      .practice-single-page-title,
+      .blog-title a,
+      .articles-title a,
+      .widgettitle,
+      .single-page-tags,
+      .comment-author cite,
+      .comment-author .author a:link,
+      #contact-form-holder label {
+        color: #252525;
+      }
+      .menu-nav li a,
+      .menu-mobile li a {
+        color: #ffffff;
+      }
+      .menu-nav li a:hover,
+      .menu-nav li.current-menu-item .sub-menu li a:hover,
+      .menu-mobile li:hover > a,
+      .menu-mobile li.current-menu-item > a {
+        color: #ff6666;
+      }
+      .menu-nav li.current-menu-item > a,
+      .menu-nav > li.current-menu-ancestor > a {
+        color: #ff6666;
+        border: 1px solid #ff6666;
+      }
+      .menu-nav
+        > li.current-menu-ancestor
+        .sub-menu
+        li.current-menu-ancestor
+        > a,
+      .sub-menu li.current-menu-item > a {
+        color: #ff6666;
+        border: none;
+      }
+      .slider-caption {
+        color: #ffffff;
+      }
+      .page-head,
+      .page-title {
+        color: #ffffff;
+      }
+      .post-subtitle:before {
+        background: #ffffff;
+      }
+      #footer-var1,
+      #footer-var2 {
+        background: #212d3a;
+        color: #ffffff;
+      }
+      .foo-block .widgettitle {
+        color: #ffffff;
+      }
+      .footer-social li a {
+        color: #ffffff;
+      }
+      a.btn-white {
+        color: #404040;
+      }
+    </style>
+    <script type="text/javascript" src="js\jquery.js"></script>
+
+    <style type="text/css" id="wp-custom-css">
+      .logo img {
+        width: 200px;
+        vertical-align: baseline;
+      }
+      @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+        .elementor-top-section {
+          background-attachment: scroll !important;
+        }
+      }
+      @media (max-width: 1024px) {
+        .nav-fixed-top .header-wrap1 {
+          display: flex;
+        }
+      }
+    </style>
+    <style id="kirki-inline-styles"></style>
   </head>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -39,5 +282,73 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script type="text/javascript">
+      var wpcf7 = {
+        apiSettings: {
+          root:
+            "https:\/\/matchthemes.com\/demowp\/lawyers\/wp-json\/contact-form-7\/v1",
+          namespace: "contact-form-7\/v1"
+        }
+      };
+    </script>
+    <script type="text/javascript">
+      (function($) {
+        "use strict";
+
+        $(window).on("scroll", function() {
+          if ($(document).scrollTop() > 1) {
+            $("#header-bar").addClass("nav-fixed-top");
+          } else {
+            $("#header-bar").removeClass("nav-fixed-top");
+          }
+        });
+      })(jQuery);
+    </script>
+    <script type="text/javascript">
+      var elementorFrontendConfig = {
+        environmentMode: { edit: false, wpPreview: false },
+        i18n: {
+          shareOnFacebook: "Share on Facebook",
+          shareOnTwitter: "Share on Twitter",
+          pinIt: "Pin it",
+          downloadImage: "Download image"
+        },
+        is_rtl: false,
+        breakpoints: { xs: 0, sm: 480, md: 768, lg: 1025, xl: 1440, xxl: 1600 },
+        version: "2.9.8",
+        urls: {
+          assets:
+            "https:\/\/matchthemes.com\/demowp\/lawyers\/wp-content\/plugins\/elementor\/assets\/"
+        },
+        settings: {
+          page: [],
+          general: {
+            elementor_global_image_lightbox: "yes",
+            elementor_lightbox_enable_counter: "yes",
+            elementor_lightbox_enable_fullscreen: "yes",
+            elementor_lightbox_enable_zoom: "yes",
+            elementor_lightbox_enable_share: "yes",
+            elementor_lightbox_title_src: "title",
+            elementor_lightbox_description_src: "description"
+          },
+          editorPreferences: []
+        },
+        post: {
+          id: 262,
+          title:
+            "Lawyers%20%E2%80%93%20Attorneys%20Law%20Firm%20WordPress%20Theme",
+          excerpt: "",
+          featuredImage: false
+        }
+      };
+    </script>
+    <script
+      defer=""
+      src="js\autoptimize_dfafb3bd57376abe5dc86c0172b7a253.js"
+    ></script>
   </body>
 </html>
